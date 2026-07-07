@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: portfolio-api
+  mail:
+    host: ${MAIL_HOST:localhost}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USERNAME:}
+    password: ${MAIL_PASSWORD:}
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+  # PostgreSQL later: add spring.datasource.* here and the JPA starter in pom.xml.
+
+app:
+  contact:
+    recipient: ${CONTACT_RECIPIENT:owner@example.com}
+    rate-limit:
+      max-requests: 3          # per window per IP
+      window-minutes: 15
+  cors:
+    allowed-origins: ${ALLOWED_ORIGINS:http://localhost:4200}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+springdoc:
+  swagger-ui:
+    path: /api/docs
+
+logging:
+  level:
+    dev.alexweber: INFO

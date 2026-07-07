@@ -1,0 +1,37 @@
+[
+  { "category": "frontend", "skills": [
+    { "name": "Angular", "years": 7, "level": 95, "icon": "angular" },
+    { "name": "TypeScript", "years": 7, "level": 95, "icon": "typescript" },
+    { "name": "JavaScript", "years": 8, "level": 90, "icon": "javascript" },
+    { "name": "HTML", "years": 8, "level": 95, "icon": "html" },
+    { "name": "CSS / SCSS", "years": 8, "level": 90, "icon": "css" },
+    { "name": "RxJS", "years": 6, "level": 85, "icon": "rxjs" },
+    { "name": "NgRx", "years": 5, "level": 85, "icon": "ngrx" }
+  ]},
+  { "category": "backend", "skills": [
+    { "name": "Java", "years": 8, "level": 95, "icon": "java" },
+    { "name": "Spring Boot", "years": 7, "level": 95, "icon": "spring" },
+    { "name": "REST APIs", "years": 8, "level": 95, "icon": "api" },
+    { "name": "Microservices", "years": 5, "level": 85, "icon": "microservices" },
+    { "name": "Spring Security / JWT", "years": 6, "level": 85, "icon": "security" },
+    { "name": "Hibernate / JPA", "years": 7, "level": 90, "icon": "database" }
+  ]},
+  { "category": "databases", "skills": [
+    { "name": "PostgreSQL", "years": 6, "level": 90, "icon": "postgresql" },
+    { "name": "MySQL", "years": 6, "level": 80, "icon": "mysql" },
+    { "name": "MongoDB", "years": 4, "level": 70, "icon": "mongodb" }
+  ]},
+  { "category": "cloud", "skills": [
+    { "name": "Docker", "years": 6, "level": 90, "icon": "docker" },
+    { "name": "Kubernetes", "years": 4, "level": 75, "icon": "kubernetes" },
+    { "name": "AWS", "years": 4, "level": 75, "icon": "aws" },
+    { "name": "Azure", "years": 3, "level": 65, "icon": "azure" }
+  ]},
+  { "category": "tools", "skills": [
+    { "name": "Git", "years": 8, "level": 95, "icon": "git" },
+    { "name": "Jenkins", "years": 5, "level": 80, "icon": "jenkins" },
+    { "name": "GitHub Actions", "years": 4, "level": 85, "icon": "githubactions" },
+    { "name": "IntelliJ / VS Code", "years": 8, "level": 95, "icon": "ide" },
+    { "name": "Postman", "years": 7, "level": 90, "icon": "postman" }
+  ]}
+]

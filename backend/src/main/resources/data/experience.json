@@ -1,0 +1,55 @@
+[
+  {
+    "id": "exp-1",
+    "company": "Placeholder Fintech GmbH",
+    "role": "Senior Full Stack Developer",
+    "duration": "2022 — Present",
+    "location": "Düsseldorf, Germany",
+    "summary": "Leading a cross-functional team building a payments platform processing millions of transactions per month.",
+    "responsibilities": [
+      "Own the Angular micro-frontend architecture across four product teams",
+      "Design Spring Boot microservices and their PostgreSQL data models",
+      "Mentor four developers; run architecture reviews and pairing sessions"
+    ],
+    "technologies": ["Angular", "NgRx", "Java 21", "Spring Boot 3", "PostgreSQL", "Kubernetes", "AWS"],
+    "achievements": [
+      "Cut checkout p95 latency from 1.8s to 420ms",
+      "Introduced contract testing, reducing integration incidents by 60%"
+    ]
+  },
+  {
+    "id": "exp-2",
+    "company": "Placeholder Logistics AG",
+    "role": "Full Stack Developer",
+    "duration": "2019 — 2022",
+    "location": "Cologne, Germany",
+    "summary": "Built real-time fleet tracking and dispatch tooling used by 2,000+ drivers.",
+    "responsibilities": [
+      "Developed real-time dashboards with Angular and WebSockets",
+      "Implemented event-driven services with Spring Boot and Kafka",
+      "Migrated a monolith module-by-module to microservices"
+    ],
+    "technologies": ["Angular", "RxJS", "Spring Boot", "Kafka", "MongoDB", "Docker"],
+    "achievements": [
+      "Reduced dispatch time per order by 35%",
+      "Zero-downtime migration of the routing engine"
+    ]
+  },
+  {
+    "id": "exp-3",
+    "company": "Placeholder Digital Agency",
+    "role": "Software Developer",
+    "duration": "2017 — 2019",
+    "location": "Düsseldorf, Germany",
+    "summary": "Delivered web applications for clients in retail, insurance and healthcare.",
+    "responsibilities": [
+      "Built client projects end to end: UI, API, database, deployment",
+      "Introduced automated testing and CI pipelines agency-wide"
+    ],
+    "technologies": ["Angular", "Java", "Spring", "MySQL", "Jenkins"],
+    "achievements": [
+      "Shipped 12 client projects on schedule",
+      "Raised automated test coverage from 0% to 70% on core products"
+    ]
+  }
+]

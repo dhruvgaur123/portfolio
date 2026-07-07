@@ -1,0 +1,113 @@
+{
+  "nav": { "home": "Start", "about": "Über mich", "skills": "Skills", "experience": "Erfahrung", "projects": "Projekte", "contact": "Kontakt", "menu": "Menü öffnen", "closeMenu": "Menü schließen" },
+  "hero": {
+    "greeting": "Hi, ich bin",
+    "role": "Senior Full Stack Developer",
+    "years": "8+ Jahre Erfahrung",
+    "intro": "Ich entwerfe und liefere Produktionssysteme von Ende zu Ende — Angular im Browser, Spring Boot auf dem Server, Docker überall dazwischen.",
+    "viewProjects": "Projekte ansehen",
+    "downloadResume": "Lebenslauf laden",
+    "contactMe": "Kontakt aufnehmen",
+    "scroll": "Scrollen zum Entdecken",
+    "terminalTitle": "alex@portfolio: ~"
+  },
+  "stats": { "years": "Jahre Erfahrung", "projects": "Gelieferte Projekte", "commits": "Gepushte Commits", "coffees": "Getrunkene Kaffees" },
+  "about": {
+    "title": "Über mich",
+    "eyebrow": "wer ich bin",
+    "bio1": "Ich bin Full-Stack-Entwickler aus Düsseldorf und habe die letzten acht Jahre damit verbracht, unklare Anforderungen in Systeme zu verwandeln, die den Produktionsbetrieb überleben. Mein Zuhause ist der Angular + Spring Boot Stack — am meisten interessieren mich aber die Nahtstellen: API-Verträge, Datenmodelle, Deployments.",
+    "bio2": "Ich habe in Fintech, Logistik, Handel, Versicherung und Gesundheitswesen gearbeitet — genug Branchen, um zu wissen: Saubere Architektur zählt überall, und ausgeliefert schlägt perfekt.",
+    "philosophyTitle": "Wie ich arbeite",
+    "philosophy1": "Langweilige Technologie, spannende Produkte. Bewährte Werkzeuge, damit die Kreativität ins Produkt fließt.",
+    "philosophy2": "Typen sind Dokumentation, die nicht lügen kann. Vom SQL-Schema bis zum TypeScript-Interface.",
+    "philosophy3": "Jedes Feature wird mit Tests, Metriken und Rollback-Plan ausgeliefert.",
+    "industriesTitle": "Branchen",
+    "industries": ["Fintech", "Logistik", "Handel", "Versicherung", "Gesundheitswesen"],
+    "softTitle": "Neben dem Code",
+    "soft": ["Mentoring & Code-Reviews", "Architektur-Workshops", "Teamübergreifende Kommunikation", "Agiles & produktorientiertes Denken"],
+    "achievementsTitle": "Highlights",
+    "achievements": [
+      "Architektur einer Payment-Plattform mit 2 Mio.+ Transaktionen pro Monat verantwortet",
+      "Open-Source-Angular-Bibliothek mit über 1.000 GitHub-Sternen",
+      "Speaker bei lokalen Java- und Angular-Meetups"
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "eyebrow": "womit ich arbeite",
+    "subtitle": "Tiefe im Kern-Stack, Breite über die gesamte Toolchain.",
+    "years": "{{years}} J.",
+    "categories": { "frontend": "Frontend", "backend": "Backend", "databases": "Datenbanken", "cloud": "Cloud & DevOps", "tools": "Tools" }
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "eyebrow": "wo ich war",
+    "responsibilities": "Aufgaben",
+    "achievements": "Erfolge",
+    "technologies": "Technologien",
+    "expand": "Details anzeigen",
+    "collapse": "Details ausblenden"
+  },
+  "projects": {
+    "title": "Projekte",
+    "eyebrow": "ausgewählte Arbeiten",
+    "subtitle": "Fallstudien mit den Architektur-Entscheidungen dahinter.",
+    "search": "Projekte durchsuchen…",
+    "all": "Alle",
+    "categories": { "enterprise": "Enterprise", "microservices": "Microservices", "angular": "Angular", "spring": "Spring Boot", "cloud": "Cloud", "ai": "KI", "opensource": "Open Source" },
+    "viewCase": "Fallstudie lesen",
+    "code": "Code",
+    "demo": "Live-Demo",
+    "empty": "Keine Projekte gefunden. Anderen Suchbegriff oder Filter probieren.",
+    "detail": {
+      "overview": "Überblick",
+      "architecture": "Architektur",
+      "challenges": "Herausforderungen",
+      "solutions": "Lösungen",
+      "features": "Kernfunktionen",
+      "stack": "Tech-Stack",
+      "lessons": "Erkenntnisse",
+      "future": "Geplante Verbesserungen",
+      "timeline": "Zeitraum",
+      "snippet": "Aus dem Code",
+      "diagram": "Platzhalter für Architekturdiagramm — durch eigenes ersetzen",
+      "back": "Alle Projekte"
+    }
+  },
+  "contact": {
+    "title": "Lass uns reden",
+    "eyebrow": "Kontakt",
+    "subtitle": "Eine Rolle, ein Projekt oder eine Frage zum Stack? Mein Postfach ist offen.",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet…",
+    "success": "Nachricht gesendet. Ich antworte in der Regel innerhalb eines Werktags.",
+    "error": "Die Nachricht konnte nicht gesendet werden. Bitte erneut versuchen oder direkt mailen.",
+    "rateLimited": "Zu viele Nachrichten von dieser Verbindung. Bitte später erneut versuchen.",
+    "required": "Dieses Feld ist erforderlich.",
+    "invalidEmail": "Bitte eine gültige E-Mail-Adresse eingeben.",
+    "minMessage": "Bitte mindestens 10 Zeichen schreiben.",
+    "mapPlaceholder": "Karten-Platzhalter — hier Google Maps einbetten",
+    "captchaPlaceholder": "CAPTCHA-Platzhalter — hier reCAPTCHA oder Turnstile anbinden"
+  },
+  "footer": {
+    "tagline": "Gebaut mit Angular, Spring Boot und zu viel Kaffee.",
+    "navTitle": "Navigation",
+    "legalTitle": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Impressum",
+    "backToTop": "Nach oben",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "notFound": {
+    "title": "404 — Route nicht gefunden",
+    "text": "Dieser Pfad löst nicht auf. Die Seite wurde verschoben oder hat nie existiert.",
+    "home": "Zur Startseite"
+  },
+  "theme": { "toggle": "Farbschema umschalten" },
+  "language": { "switch": "Sprache wechseln" },
+  "cookie": { "text": "Diese Seite nutzt nur technisch notwendigen Speicher (Theme und Sprache). Analytics-Platzhalter — hier Consent-Tool einbinden.", "ok": "Verstanden" }
+}

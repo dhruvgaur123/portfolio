@@ -1,0 +1,113 @@
+{
+  "nav": { "home": "Home", "about": "About", "skills": "Skills", "experience": "Experience", "projects": "Projects", "contact": "Contact", "menu": "Open menu", "closeMenu": "Close menu" },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Senior Full Stack Developer",
+    "years": "8+ years of experience",
+    "intro": "I design and ship production systems end to end — Angular in the browser, Spring Boot on the server, Docker everywhere in between.",
+    "viewProjects": "View projects",
+    "downloadResume": "Download resume",
+    "contactMe": "Contact me",
+    "scroll": "Scroll to explore",
+    "terminalTitle": "alex@portfolio: ~"
+  },
+  "stats": { "years": "Years of experience", "projects": "Projects delivered", "commits": "Commits pushed", "coffees": "Coffees consumed" },
+  "about": {
+    "title": "About me",
+    "eyebrow": "who am i",
+    "bio1": "I'm a full stack developer from Düsseldorf who has spent the last eight years turning ambiguous requirements into systems that survive production. My home turf is the Angular + Spring Boot stack, but I care most about the seams: API contracts, data models, deployments, and the moments where frontend and backend have to agree.",
+    "bio2": "I've worked across fintech, logistics, retail, insurance and healthcare — enough industries to know that clean architecture matters everywhere, and that shipped beats perfect.",
+    "philosophyTitle": "How I work",
+    "philosophy1": "Boring technology, exciting products. Choose proven tools so the creativity budget goes into the product.",
+    "philosophy2": "Types are documentation that can't lie. From SQL schema to TypeScript interface.",
+    "philosophy3": "Every feature ships with its tests, its metrics and its rollback plan.",
+    "industriesTitle": "Industries",
+    "industries": ["Fintech", "Logistics", "Retail", "Insurance", "Healthcare"],
+    "softTitle": "Beyond the code",
+    "soft": ["Mentoring & code reviews", "Architecture workshops", "Cross-team communication", "Agile & product thinking"],
+    "achievementsTitle": "Highlights",
+    "achievements": [
+      "Led the architecture of a payments platform handling 2M+ monthly transactions",
+      "Open-source Angular forms library with 1k+ GitHub stars",
+      "Speaker at local Java and Angular meetups"
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "eyebrow": "what i work with",
+    "subtitle": "Depth on the core stack, breadth across the toolchain.",
+    "years": "{{years}} yrs",
+    "categories": { "frontend": "Frontend", "backend": "Backend", "databases": "Databases", "cloud": "Cloud & DevOps", "tools": "Tools" }
+  },
+  "experience": {
+    "title": "Experience",
+    "eyebrow": "where i've been",
+    "responsibilities": "Responsibilities",
+    "achievements": "Achievements",
+    "technologies": "Technologies",
+    "expand": "Show details",
+    "collapse": "Hide details"
+  },
+  "projects": {
+    "title": "Projects",
+    "eyebrow": "selected work",
+    "subtitle": "Case studies with the architecture decisions behind them.",
+    "search": "Search projects…",
+    "all": "All",
+    "categories": { "enterprise": "Enterprise", "microservices": "Microservices", "angular": "Angular", "spring": "Spring Boot", "cloud": "Cloud", "ai": "AI", "opensource": "Open Source" },
+    "viewCase": "Read case study",
+    "code": "Code",
+    "demo": "Live demo",
+    "empty": "No projects match your search. Try a different term or filter.",
+    "detail": {
+      "overview": "Overview",
+      "architecture": "Architecture",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "features": "Key features",
+      "stack": "Tech stack",
+      "lessons": "Lessons learned",
+      "future": "Future improvements",
+      "timeline": "Timeline",
+      "snippet": "From the codebase",
+      "diagram": "Architecture diagram placeholder — replace with your own",
+      "back": "All projects"
+    }
+  },
+  "contact": {
+    "title": "Let's talk",
+    "eyebrow": "get in touch",
+    "subtitle": "Have a role, a project or just a question about the stack? My inbox is open.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Message sent. I usually reply within one business day.",
+    "error": "The message couldn't be sent. Please try again or email me directly.",
+    "rateLimited": "Too many messages from this connection. Please try again later.",
+    "required": "This field is required.",
+    "invalidEmail": "Please enter a valid email address.",
+    "minMessage": "Please write at least 10 characters.",
+    "mapPlaceholder": "Map placeholder — embed Google Maps here",
+    "captchaPlaceholder": "CAPTCHA placeholder — wire up reCAPTCHA or Turnstile here"
+  },
+  "footer": {
+    "tagline": "Built with Angular, Spring Boot and too much coffee.",
+    "navTitle": "Navigate",
+    "legalTitle": "Legal",
+    "privacy": "Privacy policy",
+    "terms": "Terms",
+    "backToTop": "Back to top",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "404 — route not found",
+    "text": "This path doesn't resolve. The page may have moved or never existed.",
+    "home": "Return home"
+  },
+  "theme": { "toggle": "Toggle color theme" },
+  "language": { "switch": "Switch language" },
+  "cookie": { "text": "This site uses only technically necessary storage (theme and language). Analytics placeholder — add your consent tool here.", "ok": "Got it" }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Dhruv Gaur",
+  "title": "Senior Full Stack Developer",
+  "yearsExperience": 8,
+  "location": "Ingolstadt, Germany",
+  "tagline": "I build resilient systems from database to pixel.",
+  "email": "dhruvgaur1124@gmail.com",
+  "resumeUrl": "/assets/resume/dhruv-gaur-cv.pdf",
+  "stats": { "years": 8, "projects": 40, "commits": 12000, "coffees": 9999 },
+  "social": {
+    "github": "https://github.com/your-handle",
+    "linkedin": "https://linkedin.com/in/your-handle",
+    "xing": "https://xing.com/profile/your-handle"
+  }
+}
