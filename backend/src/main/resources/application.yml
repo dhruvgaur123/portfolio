@@ -1,17 +1,15 @@
 spring:
   application:
     name: portfolio-api
-  mail:
-    host: ${MAIL_HOST:localhost}
-    port: ${MAIL_PORT:587}
-    username: ${MAIL_USERNAME:}
-    password: ${MAIL_PASSWORD:}
-    properties:
-      mail.smtp.auth: true
-      mail.smtp.starttls.enable: true
   # PostgreSQL later: add spring.datasource.* here and the JPA starter in pom.xml.
 
 app:
+  resend:
+    api-key: ${RESEND_API_KEY:}
+    # onboarding@resend.dev works without domain verification; sending is
+    # then restricted to the email address of the Resend account owner,
+    # which matches app.contact.recipient below.
+    from: ${RESEND_FROM:onboarding@resend.dev}
   contact:
     recipient: ${CONTACT_RECIPIENT:owner@example.com}
     rate-limit:
@@ -28,7 +26,6 @@ management:
   health:
     mail:
       enabled: false
-
 
 springdoc:
   swagger-ui:

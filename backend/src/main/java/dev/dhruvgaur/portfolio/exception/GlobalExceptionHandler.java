@@ -1,6 +1,7 @@
 package dev.dhruvgaur.portfolio.exception;
 
 import dev.dhruvgaur.portfolio.dto.ApiError;
+import dev.dhruvgaur.portfolio.service.MailDeliveryException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import org.slf4j.Logger;
@@ -20,21 +21,28 @@ public class GlobalExceptionHandler {
     ResponseEntity<ApiError> handleValidation(MethodArgumentNotValidException ex) {
         Map<String, String> errors = new LinkedHashMap<>();
         ex.getBindingResult().getFieldErrors()
-            .forEach(f -> errors.put(f.getField(), f.getDefaultMessage()));
+                .forEach(f -> errors.put(f.getField(), f.getDefaultMessage()));
         return ResponseEntity.badRequest()
-            .body(ApiError.of(400, "Validation failed", errors));
+                .body(ApiError.of(400, "Validation failed", errors));
     }
 
     @ExceptionHandler(RateLimitExceededException.class)
     ResponseEntity<ApiError> handleRateLimit(RateLimitExceededException ex) {
         return ResponseEntity.status(HttpStatus.TOO_MANY_REQUESTS)
-            .body(ApiError.of(429, ex.getMessage(), Map.of()));
+                .body(ApiError.of(429, ex.getMessage(), Map.of()));
+    }
+
+    @ExceptionHandler(MailDeliveryException.class)
+    ResponseEntity<ApiError> handleMailDelivery(MailDeliveryException ex) {
+        log.error("Contact mail delivery failed", ex);
+        return ResponseEntity.status(HttpStatus.BAD_GATEWAY)
+                .body(ApiError.of(502, "Message could not be delivered. Please try again later.", Map.of()));
     }
 
     @ExceptionHandler(Exception.class)
     ResponseEntity<ApiError> handleGeneric(Exception ex) {
         log.error("Unhandled exception", ex);
         return ResponseEntity.internalServerError()
-            .body(ApiError.of(500, "Something went wrong. Please try again later.", Map.of()));
+                .body(ApiError.of(500, "Something went wrong. Please try again later.", Map.of()));
     }
 }
