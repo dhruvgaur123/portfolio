@@ -1,4 +1,4 @@
-package dev.dhurvgaur.portfolio;
+package dev.dhruvgaur.portfolio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

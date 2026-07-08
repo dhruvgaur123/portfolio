@@ -1,4 +1,4 @@
-package dev.dhurvgaur.portfolio.config;
+package dev.dhruvgaur.portfolio.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;

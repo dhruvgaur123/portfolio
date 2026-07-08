@@ -9,7 +9,7 @@
     <version>3.4.1</version>
     <relativePath/>
   </parent>
-  <groupId>dev.alexweber</groupId>
+  <groupId>dev.dhruvgaur</groupId>
   <artifactId>portfolio-api</artifactId>
   <version>1.0.0</version>
   <name>portfolio-api</name>

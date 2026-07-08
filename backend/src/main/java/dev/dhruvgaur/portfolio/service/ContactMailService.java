@@ -1,6 +1,6 @@
-package dev.dhurvgaur.portfolio.service;
+package dev.dhruvgaur.portfolio.service;
 
-import dev.alexweber.portfolio.dto.ContactRequest;
+import dev.dhruvgaur.portfolio.dto.ContactRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

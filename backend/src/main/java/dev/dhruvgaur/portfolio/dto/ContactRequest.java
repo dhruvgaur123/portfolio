@@ -1,4 +1,4 @@
-package dev.alexweber.portfolio.dto;
+package dev.dhruvgaur.portfolio.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

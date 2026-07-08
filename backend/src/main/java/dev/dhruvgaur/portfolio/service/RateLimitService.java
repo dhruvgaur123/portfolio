@@ -1,4 +1,4 @@
-package dev.dhurvgaur.portfolio.service;
+package dev.dhruvgaur.portfolio.service;
 
 import java.time.Duration;
 import java.time.Instant;

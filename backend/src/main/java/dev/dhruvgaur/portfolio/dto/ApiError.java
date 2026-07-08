@@ -1,4 +1,4 @@
-package dev.alexweber.portfolio.dto;
+package dev.dhruvgaur.portfolio.dto;
 
 import java.time.Instant;
 import java.util.Map;

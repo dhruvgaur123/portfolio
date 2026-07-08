@@ -1,4 +1,4 @@
-package dev.dhurvgaur.portfolio.web;
+package dev.dhruvgaur.portfolio.web;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import dev.dhruvgaur.portfolio.service.PortfolioDataService;

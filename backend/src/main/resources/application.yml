@@ -36,4 +36,4 @@ springdoc:
 
 logging:
   level:
-    dev.alexweber: INFO
+    dev.dhruvgaur: INFO

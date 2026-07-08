@@ -1,4 +1,4 @@
-package dev.dhurvgaur.portfolio.config;
+package dev.dhruvgaur.portfolio.config;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Value;

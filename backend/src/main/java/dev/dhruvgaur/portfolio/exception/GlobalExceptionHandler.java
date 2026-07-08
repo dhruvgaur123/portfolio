@@ -1,6 +1,6 @@
-package dev.dhurvgaur.portfolio.exception;
+package dev.dhruvgaur.portfolio.exception;
 
-import dev.alexweber.portfolio.dto.ApiError;
+import dev.dhruvgaur.portfolio.dto.ApiError;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import org.slf4j.Logger;
