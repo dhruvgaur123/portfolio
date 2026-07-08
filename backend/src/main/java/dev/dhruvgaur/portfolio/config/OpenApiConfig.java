@@ -1,4 +1,4 @@
-package dev.alexweber.portfolio.config;
+package dev.dhurvgaur.portfolio.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;

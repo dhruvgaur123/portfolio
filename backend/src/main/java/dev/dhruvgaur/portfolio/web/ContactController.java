@@ -1,9 +1,9 @@
-package dev.alexweber.portfolio.web;
+package dev.dhurvgaur.portfolio.web;
 
 import dev.alexweber.portfolio.dto.ContactRequest;
-import dev.alexweber.portfolio.exception.RateLimitExceededException;
-import dev.alexweber.portfolio.service.ContactMailService;
-import dev.alexweber.portfolio.service.RateLimitService;
+import dev.dhurvgaur.portfolio.exception.RateLimitExceededException;
+import dev.dhurvgaur.portfolio.service.ContactMailService;
+import dev.dhurvgaur.portfolio.service.RateLimitService;
 import io.swagger.v3.oas.annotations.Operation;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;

@@ -39,9 +39,9 @@ import { SeoService } from '../core/services/seo.service';
           </div>
 
           <div class="hero__social">
-            <a href="https://github.com/your-handle" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/dhruvgaur123" target="_blank" rel="noopener">GitHub</a>
             <span aria-hidden="true">·</span>
-            <a href="https://linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://linkedin.com/in/dhruv-gaur" target="_blank" rel="noopener">LinkedIn</a>
             <span aria-hidden="true">·</span>
             <a href="mailto:dhruvgaur1124@gmail.com">Email</a>
           </div>

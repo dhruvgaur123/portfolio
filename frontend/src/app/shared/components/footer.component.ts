@@ -13,9 +13,9 @@ import { TranslateModule } from '@ngx-translate/core';
           <a routerLink="/" class="footer__logo"><span>~/</span>dhruv-gaur</a>
           <p class="footer__tagline">{{ 'footer.tagline' | translate }}</p>
           <div class="footer__social">
-            <a href="https://github.com/your-handle" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
-            <a href="https://linkedin.com/in/your-handle" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
-            <a href="mailto:hello@alexweber.dev" aria-label="Email">Email</a>
+            <a href="https://github.com/dhruvgaur123" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+            <a href="https://linkedin.com/in/dhruv-gaur" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            <a href="mailto:dhruvgaur1124@gmail.com" aria-label="Email">Email</a>
           </div>
         </div>
         <nav aria-label="Footer">

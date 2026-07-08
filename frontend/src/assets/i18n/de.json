@@ -9,7 +9,7 @@
     "downloadResume": "Lebenslauf laden",
     "contactMe": "Kontakt aufnehmen",
     "scroll": "Scrollen zum Entdecken",
-    "terminalTitle": "alex@portfolio: ~"
+    "terminalTitle": "dhruv@portfolio: ~"
   },
   "stats": { "years": "Jahre Erfahrung", "projects": "Gelieferte Projekte", "commits": "Gepushte Commits", "coffees": "Getrunkene Kaffees" },
   "about": {
@@ -90,8 +90,7 @@
     "required": "Dieses Feld ist erforderlich.",
     "invalidEmail": "Bitte eine gültige E-Mail-Adresse eingeben.",
     "minMessage": "Bitte mindestens 10 Zeichen schreiben.",
-    "mapPlaceholder": "Karten-Platzhalter — hier Google Maps einbetten",
-    "captchaPlaceholder": "CAPTCHA-Platzhalter — hier reCAPTCHA oder Turnstile anbinden"
+    "mapPlaceholder": "Karten-Platzhalter — hier Google Maps einbetten"
   },
   "footer": {
     "tagline": "Gebaut mit Angular, Spring Boot und zu viel Kaffee.",

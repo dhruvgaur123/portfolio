@@ -1,4 +1,4 @@
-package dev.alexweber.portfolio.service;
+package dev.dhurvgaur.portfolio.service;
 
 import dev.alexweber.portfolio.dto.ContactRequest;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package dev.alexweber.portfolio.exception;
+package dev.dhurvgaur.portfolio.exception;
 
 import dev.alexweber.portfolio.dto.ApiError;
 import java.util.LinkedHashMap;

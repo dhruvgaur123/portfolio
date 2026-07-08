@@ -1,4 +1,4 @@
-package dev.alexweber.portfolio.service;
+package dev.dhurvgaur.portfolio.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -9,7 +9,7 @@
     "downloadResume": "Download resume",
     "contactMe": "Contact me",
     "scroll": "Scroll to explore",
-    "terminalTitle": "alex@portfolio: ~"
+    "terminalTitle": "dhruv@portfolio: ~"
   },
   "stats": { "years": "Years of experience", "projects": "Projects delivered", "commits": "Commits pushed", "coffees": "Coffees consumed" },
   "about": {
@@ -90,8 +90,7 @@
     "required": "This field is required.",
     "invalidEmail": "Please enter a valid email address.",
     "minMessage": "Please write at least 10 characters.",
-    "mapPlaceholder": "Map placeholder — embed Google Maps here",
-    "captchaPlaceholder": "CAPTCHA placeholder — wire up reCAPTCHA or Turnstile here"
+    "mapPlaceholder": "Map placeholder — embed Google Maps here"
   },
   "footer": {
     "tagline": "Built with Angular, Spring Boot and too much coffee.",

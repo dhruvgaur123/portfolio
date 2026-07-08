@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 
 export const routes: Routes = [
-  { path: '', loadComponent: () => import('./pages/home.component').then(m => m.HomeComponent), title: 'Alex Weber — Senior Full Stack Developer' },
+  { path: '', loadComponent: () => import('./pages/home.component').then(m => m.HomeComponent), title: 'Dhruv Gaur — Senior Full Stack Developer' },
   { path: 'about', loadComponent: () => import('./pages/about.component').then(m => m.AboutComponent) },
   { path: 'skills', loadComponent: () => import('./pages/skills.component').then(m => m.SkillsComponent) },
   { path: 'experience', loadComponent: () => import('./pages/experience.component').then(m => m.ExperienceComponent) },

@@ -1,7 +1,7 @@
-package dev.alexweber.portfolio.web;
+package dev.dhurvgaur.portfolio.web;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import dev.alexweber.portfolio.service.PortfolioDataService;
+import dev.dhruvgaur.portfolio.service.PortfolioDataService;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

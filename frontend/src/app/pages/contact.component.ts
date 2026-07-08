@@ -57,8 +57,6 @@ type SendState = 'idle' | 'sending' | 'success' | 'error' | 'rateLimited';
           <!-- Honeypot: hidden from humans, bots fill it and get silently dropped -->
           <input class="hp" formControlName="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
 
-          <div class="form__captcha mono-label">{{ 'contact.captchaPlaceholder' | translate }}</div>
-
           <button class="btn btn--primary form__submit" type="submit" [disabled]="state() === 'sending'">
             @if (state() === 'sending') { <span class="spinner" aria-hidden="true"></span> }
             {{ (state() === 'sending' ? 'contact.sending' : 'contact.send') | translate }}
@@ -77,13 +75,13 @@ type SendState = 'idle' | 'sending' | 'success' | 'error' | 'rateLimited';
           <div class="glass panel" appReveal [revealDelay]="120">
             <a href="mailto:dhruvgaur1124@gmail.com" class="side__mail mono-label">dhruvgaur1124&#64;gmail.com</a>
             <div class="side__social">
-              <a href="https://github.com/your-handle" target="_blank" rel="noopener">GitHub</a>
-              <a href="https://linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://github.com/dhruvgaur123" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://linkedin.com/in/dhruv-gaur" target="_blank" rel="noopener">LinkedIn</a>
             </div>
           </div>
           <div class="glass panel map" appReveal [revealDelay]="200">
-            <span class="mono-label">Ingolstadt, DE</span>
-            <p>{{ 'contact.mapPlaceholder' | translate }}</p>
+            <span class="mono-label">INGOLSTADT, BAYERN, DE</span>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.068530611377!2d11.42456447732048!3d48.74238767131674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479eff1dcf8ff289%3A0x89603908912cfd6b!2sAm%20Pulverl%2027%2C%2085051%20Ingolstadt!5e0!3m2!1sen!2sde!4v1783545105348!5m2!1sen!2sde" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
           </div>
         </aside>
       </div>
