@@ -5,11 +5,12 @@ import { TranslateModule } from '@ngx-translate/core';
 import { RevealDirective } from '../core/directives/reveal.directive';
 import { PortfolioApiService } from '../core/services/portfolio-api.service';
 import { SeoService } from '../core/services/seo.service';
+import { ArchitectureDiagramComponent } from '../shared/components/architecture-diagram.component';
 
 @Component({
   selector: 'app-project-detail',
   standalone: true,
-  imports: [RouterLink, TranslateModule, RevealDirective],
+  imports: [RouterLink, TranslateModule, RevealDirective, ArchitectureDiagramComponent],
   template: `
     @if (project(); as p) {
       <article class="section container page-top">
@@ -24,9 +25,9 @@ import { SeoService } from '../core/services/seo.service';
           </div>
         </header>
 
-        <div class="diagram glass" appReveal role="img" [attr.aria-label]="'projects.detail.diagram' | translate">
+        <div class="diagram glass" appReveal>
           <span class="mono-label">{{ 'projects.detail.architecture' | translate }}</span>
-          <p>{{ 'projects.detail.diagram' | translate }}</p>
+          <app-architecture-diagram [id]="p.id" />
         </div>
 
         <div class="cols">
@@ -77,11 +78,9 @@ import { SeoService } from '../core/services/seo.service';
     .links { display: flex; gap: 0.8rem; margin-top: 1.2rem; }
     .diagram {
       margin-block: 2.5rem;
-      padding: 3rem 1.5rem;
-      text-align: center;
-      color: var(--text-muted);
-      border-style: dashed;
+      padding: 1.6rem 1.5rem 1.2rem;
     }
+    .diagram .mono-label { display: block; margin-bottom: 1rem; }
     .cols { display: grid; grid-template-columns: 1.4fr 1fr; gap: 2.5rem; }
     .cols h2 { font-size: 1.2rem; margin-top: 1.6rem; }
     .side { display: grid; gap: 1.2rem; align-content: start; }
