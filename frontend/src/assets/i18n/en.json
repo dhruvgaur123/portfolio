@@ -15,21 +15,21 @@
   "about": {
     "title": "About me",
     "eyebrow": "who am i",
-    "bio1": "I'm a full stack developer from Düsseldorf who has spent the last eight years turning ambiguous requirements into systems that survive production. My home turf is the Angular + Spring Boot stack, but I care most about the seams: API contracts, data models, deployments, and the moments where frontend and backend have to agree.",
-    "bio2": "I've worked across fintech, logistics, retail, insurance and healthcare — enough industries to know that clean architecture matters everywhere, and that shipped beats perfect.",
+    "bio1": "I'm a full stack developer based in Ingolstadt, Germany, currently building backend services and Angular frontends at Donat IT. My home turf is Angular on the frontend and Java, Spring Boot and Quarkus on the backend, but I care most about the seams: API contracts, data models, deployments, and the moments where frontend and backend have to agree.",
+    "bio2": "Over nearly a decade — from Accenture in Malaysia, to Wipro in Bangalore, to Donat IT in Germany — I've worked across automotive, manufacturing, finance and energy, shipping everything from tax and accrual portals to microservices-based automotive platforms on AWS.",
     "philosophyTitle": "How I work",
     "philosophy1": "Boring technology, exciting products. Choose proven tools so the creativity budget goes into the product.",
     "philosophy2": "Types are documentation that can't lie. From SQL schema to TypeScript interface.",
     "philosophy3": "Every feature ships with its tests, its metrics and its rollback plan.",
     "industriesTitle": "Industries",
-    "industries": ["Fintech", "Logistics", "Retail", "Insurance", "Healthcare"],
+    "industries": ["Automotive", "Manufacturing", "Finance", "Energy"],
     "softTitle": "Beyond the code",
-    "soft": ["Mentoring & code reviews", "Architecture workshops", "Cross-team communication", "Agile & product thinking"],
+    "soft": ["Mentoring & code reviews", "API design & documentation", "Cross-team communication", "Agile & Scrum"],
     "achievementsTitle": "Highlights",
     "achievements": [
-      "Led the architecture of a payments platform handling 2M+ monthly transactions",
-      "Open-source Angular forms library with 1k+ GitHub stars",
-      "Speaker at local Java and Angular meetups"
+      "Led the migration of a monolithic application to microservices at Donat IT, improving system performance by 40%",
+      "Mentored engineering teams on Angular architecture and scalable frontend practices at Wipro",
+      "Delivered enterprise portals and automation systems for global clients, including Petronas, at Accenture"
     ]
   },
   "skills": {

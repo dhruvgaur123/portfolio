@@ -15,21 +15,21 @@
   "about": {
     "title": "Über mich",
     "eyebrow": "wer ich bin",
-    "bio1": "Ich bin Full-Stack-Entwickler aus Düsseldorf und habe die letzten acht Jahre damit verbracht, unklare Anforderungen in Systeme zu verwandeln, die den Produktionsbetrieb überleben. Mein Zuhause ist der Angular + Spring Boot Stack — am meisten interessieren mich aber die Nahtstellen: API-Verträge, Datenmodelle, Deployments.",
-    "bio2": "Ich habe in Fintech, Logistik, Handel, Versicherung und Gesundheitswesen gearbeitet — genug Branchen, um zu wissen: Saubere Architektur zählt überall, und ausgeliefert schlägt perfekt.",
+    "bio1": "Ich bin Full-Stack-Entwickler mit Sitz in Ingolstadt, Deutschland, und entwickle derzeit bei Donat IT Backend-Services und Angular-Frontends. Mein Zuhause ist Angular im Frontend sowie Java, Spring Boot und Quarkus im Backend — am meisten interessieren mich aber die Nahtstellen: API-Verträge, Datenmodelle, Deployments.",
+    "bio2": "In fast einem Jahrzehnt — von Accenture in Malaysia über Wipro in Bangalore bis Donat IT in Deutschland — habe ich in Automotive, Fertigung, Finanzen und Energie gearbeitet und dabei alles von Steuer- und Rückstellungsportalen bis zu microservicebasierten Automotive-Plattformen auf AWS ausgeliefert.",
     "philosophyTitle": "Wie ich arbeite",
     "philosophy1": "Langweilige Technologie, spannende Produkte. Bewährte Werkzeuge, damit die Kreativität ins Produkt fließt.",
     "philosophy2": "Typen sind Dokumentation, die nicht lügen kann. Vom SQL-Schema bis zum TypeScript-Interface.",
     "philosophy3": "Jedes Feature wird mit Tests, Metriken und Rollback-Plan ausgeliefert.",
     "industriesTitle": "Branchen",
-    "industries": ["Fintech", "Logistik", "Handel", "Versicherung", "Gesundheitswesen"],
+    "industries": ["Automotive", "Fertigung", "Finanzen", "Energie"],
     "softTitle": "Neben dem Code",
-    "soft": ["Mentoring & Code-Reviews", "Architektur-Workshops", "Teamübergreifende Kommunikation", "Agiles & produktorientiertes Denken"],
+    "soft": ["Mentoring & Code-Reviews", "API-Design & Dokumentation", "Teamübergreifende Kommunikation", "Agile & Scrum"],
     "achievementsTitle": "Highlights",
     "achievements": [
-      "Architektur einer Payment-Plattform mit 2 Mio.+ Transaktionen pro Monat verantwortet",
-      "Open-Source-Angular-Bibliothek mit über 1.000 GitHub-Sternen",
-      "Speaker bei lokalen Java- und Angular-Meetups"
+      "Migration einer monolithischen Anwendung zu Microservices bei Donat IT geleitet und die Systemleistung um 40 % verbessert",
+      "Teams bei Wipro in Angular-Architektur und skalierbaren Frontend-Praktiken gecoacht",
+      "Enterprise-Portale und Automatisierungssysteme für globale Kunden, u. a. Petronas, bei Accenture geliefert"
     ]
   },
   "skills": {

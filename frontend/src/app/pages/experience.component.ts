@@ -132,7 +132,7 @@ export class ExperienceComponent implements OnInit {
   private readonly open = signal<Set<string>>(new Set());
 
   ngOnInit(): void {
-    this.seo.set('Experience', 'Eight years across fintech, logistics and agency work — the roles, stacks and outcomes.');
+    this.seo.set('Experience', 'Roles at Donat IT, Wipro and Accenture — the stacks, responsibilities and outcomes.');
   }
 
   isOpen(id: string): boolean {

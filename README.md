@@ -114,7 +114,3 @@ The backend was designed so the database is a drop-in:
 - Fonts preconnected with `display=swap`; immutable hashed asset caching; gzip at both nginx layers
 - Skeleton shimmer while API data streams in; animations are transform/opacity only
 - SSR-ready: no direct DOM access outside browser-safe hooks/services — add `@angular/ssr` when prerendering is desired
-
-## Replacing placeholder content
-
-All content lives in `backend/src/main/resources/data/*.json` (name, socials, projects, experience, skills) and the two i18n files. Swap `your-handle`, `your-domain.com`, the resume PDF under `frontend/src/assets/resume/`, and project images under `frontend/src/assets/projects/`.

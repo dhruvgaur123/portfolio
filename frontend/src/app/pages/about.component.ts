@@ -78,6 +78,6 @@ export class AboutComponent implements OnInit {
   private readonly seo = inject(SeoService);
 
   ngOnInit(): void {
-    this.seo.set('About', 'Eight years of full stack development across fintech, logistics, retail, insurance and healthcare.');
+    this.seo.set('About', 'Full stack developer in Ingolstadt, Germany, with nearly a decade of experience across automotive, manufacturing, finance and energy.');
   }
 }
