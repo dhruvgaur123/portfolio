@@ -95,7 +95,7 @@ export class ProjectsComponent implements OnInit {
   private readonly api = inject(PortfolioApiService);
   private readonly seo = inject(SeoService);
 
-  readonly categories = ['enterprise', 'microservices', 'angular', 'spring', 'cloud', 'ai', 'opensource'];
+  readonly categories = ['enterprise', 'angular', 'cloud'];
   readonly query = signal('');
   readonly filter = signal('all');
   readonly projects = toSignal(this.api.projects$);
