@@ -110,6 +110,6 @@ export class ProjectsComponent implements OnInit {
   });
 
   ngOnInit(): void {
-    this.seo.set('Projects', 'Case studies: payments, real-time fleet tracking, open-source Angular tooling and AI analytics.');
+    this.seo.set('Projects', 'Case studies: a full-stack e-commerce platform and a personal finance manager, built end to end.');
   }
 }
